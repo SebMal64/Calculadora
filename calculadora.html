@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="calculadora.css">
+    <title>calculadora</title>
+</head>
+<body class="todo">
+    <form id="calculadora">
+        <input type="textfield" name="resp" value="set" autocomplete="on" id="input">0</div>
+        <div id="general">
+            <div id="number">
+            <div id="numeros" >
+
+                <button class="tn num" id="1" type="button" value="1" onclick="valor(1)">1</button>
+                <button class="btn num" id="2" type="button" value="2" onclick="valor(2)">2</button>
+                <button class="btn num" id="3" type="button" value="3" onclick="valor(3)">3</button>
+                <button class="btn num" id="4" type="button" value="4" onclick="valor(4)">4</button>
+                <button class="btn num" id="5" type="button" value="5" onclick="valor(5)">5</button>
+                <button class="btn num" id="6" type="button" value="6" onclick="valor(6)">6</button>
+                <button class="btn num" id="7" type="button" value="7" onclick="valor(7)">7</button>
+                <button class="btn num" id="8" type="button" value="8" onclick="valor(8)">8</button>
+                <button class="btn num" id="9" type="button" value="9" onclick="valor(9)">9</button>
+            </div>
+            <div id="esp">
+                <button class="btn num" id="10" type="button" value="." onclick="valor(10)">.</button>
+                <button class="btn num" id="0" type="button" value="0" onclick="valor(0)">0</button>
+                <div id="igu" class="btn igual" onclick="igual()">=</div>
+            </div></div>
+            <div id="botones">
+                <div id="suma" class="btn ope" onclick="suma()" >+</div>
+                <div id="resta" class="btn ope">-</div>
+                <div id="multi" class="btn ope">*</div>
+                <div id="division" class="btn ope">/</div>
+            </div>
+        </div>
+    </form>
+</body>
+<script src="calculadora.js"></script>
+</html>
